@@ -1,0 +1,42 @@
+package transport;
+
+public class Transport {
+public static void main (String[] args) {
+//ввод массива
+Car [] myCar = new Car[4];
+myCar[0] = new Car();
+myCar[1] = new PassengerCar();
+myCar[2] = new Jeep();
+myCar[3] = new Chevrolet();
+
+for (Car car: myCar) {
+car.introdution();
+}
+}
+}
+
+public class Car {
+public void introdution(){
+    System.out.println("Это автомобиль\n");
+}
+}
+
+public class PassengerCar extends Car {
+@Override
+public void introdution(){
+System.out.println("Это легковой автомобиль\n");
+}
+}
+
+public class Jeep extends PassengerCar {
+@Override
+public void introdution(){
+System.out.println("Это внедорожник\n");
+}
+}
+
+public class Chevrolet extends Jeep {
+public void introdution(){
+System.out.println("Это внедорожник марки Chevrolet");
+}
+}
