@@ -1,0 +1,13 @@
+c:\users\veraivanova\documents\visual studio 2012\Projects\CPSMI_Project_MyTestVersion\CPSMI_Project_MyTestVersion\bin\Debug\CPSMI_Project_MyTestVersion.exe.config
+c:\users\veraivanova\documents\visual studio 2012\Projects\CPSMI_Project_MyTestVersion\CPSMI_Project_MyTestVersion\bin\Debug\CPSMI_Project_DatabaseDataSet.Designer.cs
+c:\users\veraivanova\documents\visual studio 2012\Projects\CPSMI_Project_MyTestVersion\CPSMI_Project_MyTestVersion\bin\Debug\CPSMI_Project_DatabaseDataSet.xsc
+c:\users\veraivanova\documents\visual studio 2012\Projects\CPSMI_Project_MyTestVersion\CPSMI_Project_MyTestVersion\bin\Debug\CPSMI_Project_DatabaseDataSet.xsd
+c:\users\veraivanova\documents\visual studio 2012\Projects\CPSMI_Project_MyTestVersion\CPSMI_Project_MyTestVersion\bin\Debug\CPSMI_Project_DatabaseDataSet.xss
+c:\users\veraivanova\documents\visual studio 2012\Projects\CPSMI_Project_MyTestVersion\CPSMI_Project_MyTestVersion\bin\Debug\CPSMI_Project_MyTestVersion.exe
+c:\users\veraivanova\documents\visual studio 2012\Projects\CPSMI_Project_MyTestVersion\CPSMI_Project_MyTestVersion\bin\Debug\CPSMI_Project_MyTestVersion.pdb
+c:\users\veraivanova\documents\visual studio 2012\Projects\CPSMI_Project_MyTestVersion\CPSMI_Project_MyTestVersion\obj\Debug\CPSMI_Project_MyTestVersion.csprojResolveAssemblyReference.cache
+c:\users\veraivanova\documents\visual studio 2012\Projects\CPSMI_Project_MyTestVersion\CPSMI_Project_MyTestVersion\obj\Debug\CPSMI_Project_MyTestVersion.Form1.resources
+c:\users\veraivanova\documents\visual studio 2012\Projects\CPSMI_Project_MyTestVersion\CPSMI_Project_MyTestVersion\obj\Debug\CPSMI_Project_MyTestVersion.Properties.Resources.resources
+c:\users\veraivanova\documents\visual studio 2012\Projects\CPSMI_Project_MyTestVersion\CPSMI_Project_MyTestVersion\obj\Debug\CPSMI_Project_MyTestVersion.csproj.GenerateResource.Cache
+c:\users\veraivanova\documents\visual studio 2012\Projects\CPSMI_Project_MyTestVersion\CPSMI_Project_MyTestVersion\obj\Debug\CPSMI_Project_MyTestVersion.exe
+c:\users\veraivanova\documents\visual studio 2012\Projects\CPSMI_Project_MyTestVersion\CPSMI_Project_MyTestVersion\obj\Debug\CPSMI_Project_MyTestVersion.pdb
