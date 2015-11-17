@@ -1,0 +1,113 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace WindowsFormsApplication4
+{
+    public partial class Form1 : Form
+    {   private MainMenu menu; // главное меню
+        public Form1()
+        {
+            InitializeComponent();
+            this.AutoScroll = true;
+            menu = new MainMenu(); //создание 
+            MenuItem mFile = menu.MenuItems.Add("File");
+            mFile.MenuItems.Add(new MenuItem("Exit",
+               new EventHandler(this.FileExit_Clicked), Shortcut.CtrlX));
+            mFile.MenuItems.Add(new MenuItem("Save"));
+            this.Menu = menu; 
+
+            
+        }
+        private void FileExit_Clicked(object sender, EventArgs e)
+            {
+                this.Close();		// Выход из приложения
+            }
+        
+
+        private void personalBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.personalBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.dataSet1);
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "dataSet1.Work". При необходимости она может быть перемещена или удалена.
+            this.workTableAdapter.Fill(this.dataSet1.Work);
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "dataSet1.Personal". При необходимости она может быть перемещена или удалена.
+            this.personalTableAdapter.Fill(this.dataSet1.Personal);
+
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+
+        }
+
+        
+
+//                DataSet1TableAdapters.PersonalTableAdapter personalTableAdapter = 
+//                new DataSet1TableAdapters.PersonalTableAdapter();
+//                personalTableAdapter.Insert();
+
+
+//                DataSet1.PersonalRow  newPersonalRaw;
+//                DataSet1.Personal.Add(m);
+
+ //               newPersonalRaw = DataSet1.PersonalRow.newPersonal.Raw();
+
+
+
+
+
+
+        private void mIsClicked(object sender, MouseEventArgs e)
+        {
+            if (CheckBox.Checked)
+            {
+
+                //*1*
+                string m = CheckBox.Text;
+
+
+                DataRow Pol = dataSet1.Tables["Personal"].NewRow();
+
+                Pol["Pol"] = "м";             
+//                dataSet1.Tables["Personal"].Rows.Add(Pol);
+
+
+
+
+//                DataSet1TableAdapters.PersonalTableAdapter personalTableAdapter = 
+//                new DataSet1TableAdapters.PersonalTableAdapter();
+
+//                personalTableAdapter.Insert(1);
+
+
+
+                //                DataSet1.PersonalRow  newPersonalRaw;
+                //                DataSet1.Personal.Add(m);
+
+                //               newPersonalRaw = DataSet1.PersonalRow.newPersonal.Raw();
+
+
+
+            }
+        }
+        
+
+
+
+
+
+    }
+}
